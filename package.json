@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/satpal911/vidify#readme",
+  "bugs": {
+    "url": "https://github.com/satpal911/vidify/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satpal911/vidify.git"
+  },
+  "license": "ISC",
+  "author": "Satpal",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cloudinary": "^2.10.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.5.0",
+    "mongoose": "^9.7.4",
+    "node": "^26.5.0",
+    "nodemon": "^3.1.14"
+  }
+}
